@@ -1,0 +1,21 @@
+.lead {
+  height: 50px;
+  width: fit-content;
+  background: #272727;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 10px;
+}
+
+.lead strong {
+  font-size: 16px;
+}
+
+.lead img {
+  cursor: pointer;
+}

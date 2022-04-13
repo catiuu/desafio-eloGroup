@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 60px 60px 0px 0px;
+  min-height: calc(100vh - 220px);
+  margin-top: -80px;
+  padding: 40px 40px;
+}
+
+.div-exit {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.new-lead {
+  height: 50px;
+  width: 200px;
+  background: #272727;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 10px;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.exit-button {
+  display: flex;
+  align-items: center;
+}

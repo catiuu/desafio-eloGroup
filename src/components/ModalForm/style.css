@@ -1,0 +1,94 @@
+.modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  border: solid 2px #000000;
+  padding: 10px 30px 30px 30px;
+  width: fit-content;
+  height: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(61, 61, 61, 0.48);
+}
+
+.close {
+  align-self: flex-end;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container .input {
+  width: 250px;
+}
+.modal-button-add {
+  max-width: 150px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  background: #272727;
+  color: #f9f9f9;
+  border-radius: 5px;
+  margin: 12px 0;
+}
+
+.modal-button-add:hover {
+  background: #3a3939;
+}
+
+.opportunities-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opportunities-container .title {
+  margin: 10px 0px;
+}
+
+.opportunities-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  width: 250px;
+}
